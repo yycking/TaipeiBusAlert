@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1DF7E8202D88D3004CC0FD /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DF7E7202D88D3004CC0FD /* UserDefaults+.swift */; };
 		AFB78443202D421000481D0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB78442202D421000481D0E /* AppDelegate.swift */; };
 		AFB78445202D421000481D0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB78444202D421000481D0E /* ViewController.swift */; };
 		AFB78447202D421000481D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB78446202D421000481D0E /* Assets.xcassets */; };
 		AFB7844A202D421000481D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB78448202D421000481D0E /* Main.storyboard */; };
+		AFB78453202D66D400481D0E /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB78452202D66D400481D0E /* Data+.swift */; };
+		AFB78455202D6C4A00481D0E /* 公車.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB78454202D6C4A00481D0E /* 公車.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF1DF7E7202D88D3004CC0FD /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 		AFB7843F202D420F00481D0E /* TaipeiBusAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiBusAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB78442202D421000481D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFB78444202D421000481D0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +25,8 @@
 		AFB78449202D421000481D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFB7844B202D421000481D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFB7844C202D421000481D0E /* TaipeiBusAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaipeiBusAlert.entitlements; sourceTree = "<group>"; };
+		AFB78452202D66D400481D0E /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
+		AFB78454202D6C4A00481D0E /* 公車.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "公車.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				AFB78448202D421000481D0E /* Main.storyboard */,
 				AFB7844B202D421000481D0E /* Info.plist */,
 				AFB7844C202D421000481D0E /* TaipeiBusAlert.entitlements */,
+				AFB78452202D66D400481D0E /* Data+.swift */,
+				AFB78454202D6C4A00481D0E /* 公車.swift */,
+				AF1DF7E7202D88D3004CC0FD /* UserDefaults+.swift */,
 			);
 			path = TaipeiBusAlert;
 			sourceTree = "<group>";
@@ -134,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB78453202D66D400481D0E /* Data+.swift in Sources */,
+				AFB78455202D6C4A00481D0E /* 公車.swift in Sources */,
+				AF1DF7E8202D88D3004CC0FD /* UserDefaults+.swift in Sources */,
 				AFB78445202D421000481D0E /* ViewController.swift in Sources */,
 				AFB78443202D421000481D0E /* AppDelegate.swift in Sources */,
 			);
